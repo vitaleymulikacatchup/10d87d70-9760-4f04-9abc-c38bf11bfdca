@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -119,8 +119,7 @@ export default function Home() {
               company: "Fortune 500 Company",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Sarah Johnson",
-              content: "Exceptional service and luxurious accommodations. The attention to detail was remarkable."
+              imageAlt: "Portrait of Sarah Johnson"
             },
             {
               id: "2",
@@ -129,8 +128,7 @@ export default function Home() {
               company: "Elite Travel Group",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/34389929/pexels-photo-34389929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Michael Chen",
-              content: "Outstanding hospitality and world-class amenities. Truly a five-star experience."
+              imageAlt: "Portrait of Michael Chen"
             },
             {
               id: "3",
@@ -139,8 +137,7 @@ export default function Home() {
               company: "Luxury Events Co",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of Emily Rodriguez",
-              content: "Perfect venue for our corporate events. The staff went above and beyond expectations."
+              imageAlt: "Portrait of Emily Rodriguez"
             },
             {
               id: "4",
@@ -149,8 +146,7 @@ export default function Home() {
               company: "International Corp",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/34389929/pexels-photo-34389929.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Portrait of David Kim",
-              content: "Impeccable service and stunning facilities. We'll definitely be returning soon."
+              imageAlt: "Portrait of David Kim"
             }
           ]}
         />
